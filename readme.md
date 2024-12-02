@@ -12,6 +12,7 @@ Modellare la struttura di una tabella per memorizzare tutti i dati riguardanti d
 - DESCRIZIONE | VARCHAR(255) NOT_NULL
 - KM_FATTI | INT NOT_NULL
 - ANNO | YEAR 
-- PREZZO | INT NOT_NULL 
-- ?DISPONIBILE
-- 
+- PREZZO | DECIMAL NOT_NULL 
+- ?DISPONIBILE | TINYINT 
+- CAMBIO | VARCHAR(30) 
+- ALIMENTAZIONE | VARCHAR(30) NOT_NULL
